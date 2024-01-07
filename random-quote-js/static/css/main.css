@@ -1,0 +1,114 @@
+
+/** {
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}*/
+
+* {
+  font-family:  system-ui;
+  box-sizing: border-box;
+}
+
+body {
+	background-color: #333;
+	color: #333;
+	height: 100vh;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+}
+
+#quote-box {
+	border-radius: 3px;
+	position: relative;
+	width: 50vw;
+	padding: 40px 50px;
+	display: table;
+	background-color: white;
+}
+
+#quote-box .quote-text {
+	text-align: center;
+	width: 50vw;
+	height: auto;
+	clear: both;
+	font-weight: 500;
+	font-size: 1.75em;
+	color: #333;
+	background-color: white;
+}
+
+#quote-box .quote-text i {
+	font-size: 1em;
+	margin-right: 0.4em;
+}
+
+#quote-box .quote-text i::before {
+	font-size: 1.4em;
+  	content: "❝";
+}
+
+#quote-box .quote-author {
+	background-color: white;
+	text-align: right;
+	height: auto;
+	clear: both;
+	font-weight: 500;
+	font-size: 1.75em;
+}
+
+#quote-box .buttons {
+	width: 50vw;
+	margin: auto;
+	display: block;
+}
+
+#quote-box .buttons .button {
+	height: 38px;
+	border: none;
+	border-radius: 3px;
+	color: #fff;
+	background-color: #333;
+	outline: none;
+	font-size: 0.85em;
+	padding: auto 18px;
+	margin-top: 30px;
+	opacity: 1;
+	cursor: pointer;
+}
+
+#quote-box .buttons .button:hover {
+	opacity: 0.9;
+}
+
+#quote-box .buttons .button#tweet-quote,
+#quote-box .buttons .button#tumblr-quote {
+	float: left;
+	padding: 0px;
+	padding-top: 0px;
+	text-align: center;
+	font-size: 1.2em;
+	margin-right: 5px;
+	height: 30px;
+	width: 40px;
+	display: flex;
+	justify-content: center;
+  align-items: center;
+}
+
+
+#quote-box .buttons .button#new-quote {
+	float: right;
+	height: 30px;
+}
+
+
+
+
+
+
+
+
